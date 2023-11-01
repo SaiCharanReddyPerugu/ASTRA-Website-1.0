@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">A S T R A</title> 
+    <link rel="icon" type="image/x-icon" href="./Images/Astra-Square-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body class="body">
+    <header class="header-home">
+        <div class="header-logo-placeholder">
+            <a href="#">
+                <img class="header-logo" src="./Images/white-logo.png" alt="ASTRA">
+            </a>
+        </div>
+
+        <div class="header-sponsor">
+            <a href="#">
+                <button class="button-default-hover" id="button-sponsor-link">SPONSOR</button>
+            </a>
+        </div>
+
+        <div class="header-nav-links">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">ROVER</a>
+            <a href="">ROCKET</a>
+            <a href="">RESEARCH</a>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main-info">
+            <p id ="main-tagline-1a" class="main-tagline">ONE TEAM,</p>
+            <p id ="main-tagline-1b" class="main-tagline">DIVERSE MISSIONS.</p>
+            <p class="main-description">Space or Nothing Universe it is.</p>
+            <a href="#">
+                <button class="button-default-hover" id="button-about-link">Learn More</button>
+            </a>
+        </div>
+
+        <div class="main-heroimage">
+            <img class="main-heroimage-inauguration" src="./Images/Inauguration_PIC.jpg" alt="Club-members-pic">
+        </div>
+    </section>
+
+    <section class="achievements">
+
+        <div class="achievements-heroimage">
+            <img class="achievements-image" src="./Images/Achievements_main_IMG.png" alt="Club-achievements-pic">
+        </div>
+
+        <div class="achievements-info">
+            <p class="achievements-tagline-2a">CLUB</p>
+            <p class="achievements-tagline-2b">ACHIEVEMENTS</p>
+            <div class="achievements-description">
+                <ul>
+                    <li>We built a Liquid Propellent Test Stand upto 5kN.</li>
+                    <li>Launched CELESTE 1.0. Our Annual Event.</li>
+                </ul>
+            </div>
+            <a href="">
+                <button class="button-default-hover" id="button-achievement-link">Learn More</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="news-container-section-main">
+        <div class="news-container-section">
+            <div class="news-box" id="news-1">
+                <a href="#">
+                    <img class="news-box-img" src="./Images/News 1.png" alt="news1">
+                </a>
+                <p class="news-heading">Rover on the Earth ?</p>
+                <p class="news-info">Lorem ipsum dolor sit amet consectetur. Feugiat dui convallis eu risus suspendisse. Vulputate porttito elit scelerisque.</p>
+            </div>
+            <div class="news-box" id="news-2">
+                <a href="#">
+                    <img class="news-box-img" src="./Images/News 2.png" alt="news2">
+                </a>
+                <p class="news-heading">CubeSat 1.0</p>
+                <p class="news-info">Lorem ipsum dolor sit amet consectetur. Feugiat dui convallis eu risus suspendisse. Vulputate porttito elit scelerisque.</p>
+            </div>
+            <div class="news-box" id="news-3">
+                <a href="#">
+                    <img class="news-box-img" src="./Images/News 3.png" alt="news3">
+                </a>
+                <p class="news-heading">123 Launch!!!</p>
+                <p class="news-info">Lorem ipsum dolor sit amet consectetur. Feugiat dui convallis eu risus suspendisse. Vulputate porttito elit scelerisque.</p>
+            </div>
+        </div>
+        
+        <div class="news-button">
+            <a href="#">
+                <button class="button-default-hover" id="button-news-link">View More</button>
+            </a>
+        </div>
+    </section>
+    
+    <section class="rover-team-container">
+        <div class="rover-team">
+            <p id ="rover-tagline-3a" class="main-tagline">ASTRA</p>
+            <p id ="rover-tagline-3b" class="main-tagline">ROVER TEAM</p>
+            <p class="rover-description">We build rovers that work but on earth.</p>
+            <a href="#">
+                <button class="button-default-hover" id="button-rover-link">Learn More</button>
+            </a>
+        </div>
+
+        <div id="model-3D-container">
+            <model-viewer id="Rover-3D-model" src="./Images/Curiosity_static.gltf" alt="Rover-3D-model" auto-rotate camera-controls="pan-y" camera-orbit="-45deg 70deg" disable-zoom >
+            </model-viewer>
+        </div>
+    </section>
+
+    <section class="rocket-team-container">
+        <div id="model-3D-container-rocket">
+            <model-viewer id="Rover-3D-model" src="./Images/Curiosity_static.gltf" alt="Rover-3D-model" auto-rotate camera-controls="pan-y" camera-orbit="-45deg 70deg" disable-zoom >
+            </model-viewer>
+        </div>
+
+        <div class="rocket-team">
+            <p id ="rocket-tagline-3a" class="main-tagline">ASTRA</p>
+            <p id ="rocket-tagline-3b" class="main-tagline">ROCKET TEAM</p>
+            <p class="rocket-description">Building rockets is not Rocket Science ?</p>
+            <a href="#">
+                <button class="button-default-hover" id="button-rocket-link">Learn More</button>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="footer-logo-placeholder">
+            <a href="#">
+                <img class="footer-logo" src="./Images/black-logo.png" alt="ASTRA">
+            </a>
+        </div>
+
+        <div class="footer-socials-placeholder">
+            <a href="https://www.linkedin.com/company/chaitanya-astra-strides-cbit/" target="_blank">
+                <img class="socials-logo-linkedin" src="./Images/LinkedIN-LOGO.svg" alt="ASTRA">
+            </a>
+
+            <a href="https://instagram.com/__chaitanyaastra__?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <img class="socials-logo-insta" src="./Images/INSTA-Logo.svg" alt="ASTRA">
+            </a>
+
+            <a href="https://instagram.com/__chaitanyaastra__?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <img class="socials-logo-insta" src="./Images/email-logo.svg" alt="ASTRA">
+            </a>
+
+            <a href="https://instagram.com/__chaitanyaastra__?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <img class="socials-logo-insta" src="./Images/twitter-logo.svg" alt="ASTRA">
+            </a>
+        </div>
+
+        <div class="footer-copyright-placeholder">
+            <p class="footer-copyright">
+                Copyright © 2023 Chaitanya Astra. All rights reserved.
+            </p>
+        </div>
+
+        <div class="footer-india-placeholder">
+            <p class="footer-india">
+                India
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
